@@ -1,0 +1,89 @@
+.login-layout {
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 20px 0;
+}
+
+.login-layout .login-page {
+    background-color: white;
+    padding: 40px;
+    width: 440px;
+    border: 1px solid lightgrey;
+}
+
+.login-layout .login-page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-layout .login-page .login-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.login-layout .login-page .login-infos p {
+    font-size: 1rem;
+}
+
+.login-layout .login-page .login-infos input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.login-layout .login-page .login-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-layout .login-page .login-options span {
+    font-size: 0.9rem;
+}
+
+.login-layout .login-page .login-options p {
+    color: rgb(153, 153, 153);
+    font-size: 0.9rem;
+}
+
+.login-layout .login-page .login-btn {
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: white;
+    background-color: black;
+    font-size: 600;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+.login-layout .login-page .login-btn:hover {
+    opacity: 0.7;
+}
+
+.login-layout .login-page .create-acc {
+    text-align: center;
+}
+
+/* responsive */
+
+@media (max-width: 570px) {
+    .login-layout {
+        display: flex;
+        justify-content: center;
+        margin: 90px 0 20px 0;
+        padding: 10px;
+    }
+
+    .login-layout .login-page {
+        background-color: white;
+        padding: 40px;
+        width: 440px;
+        border: 1px solid lightgrey;
+}
+
+}
